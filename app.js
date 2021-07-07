@@ -8,7 +8,7 @@ const path = require("path")
 const mainRoutes = require("./routes/mainRoutes")
 
 const app = express()
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 
 // Middlewares.
 app.use(morgan("tiny"))
