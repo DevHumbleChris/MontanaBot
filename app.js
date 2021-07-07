@@ -1,4 +1,4 @@
-require("dotenv/config")
+require("dotenv").config()
 require("colors")
 const express = require("express")
 const morgan = require("morgan")

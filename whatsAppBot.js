@@ -1,4 +1,4 @@
-require("dotenv/config")
+require("dotenv").config()
 const client = require('twilio')(process.env.accountSid, process.env.authToken);
 
 client.messages
