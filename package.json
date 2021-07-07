@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A WhatsAppBot Made With TwilioApi",
   "main": "app.js",
-  "repository": "https://github.com/DevHumbleChris/MontanaBot.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevHumbleChris/MontanaBot.git"
+  },
   "author": "Am.ChrisKE",
   "license": "MIT",
   "private": false,
@@ -23,5 +26,9 @@
   "scripts": {
     "start": "node app.js",
     "MontanaBot": "nodemon app.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/DevHumbleChris/MontanaBot/issues"
+  },
+  "homepage": "https://github.com/DevHumbleChris/MontanaBot#readme"
 }
